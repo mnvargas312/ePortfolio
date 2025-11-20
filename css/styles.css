@@ -122,3 +122,126 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Program objectives list */
+.program-objectives-list li {
+  margin-bottom: 1rem;
+}
+
+.objective-link {
+  color: var(--mv-blue);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.objective-link:hover {
+  text-decoration: underline;
+}
+
+/* Carousel styling */
+.carousel-mv {
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.12);
+}
+
+.carousel-image {
+  max-height: 380px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.55);
+  border-radius: 0.75rem;
+  padding: 0.75rem 1rem;
+}
+
+/* Artifact sections */
+.artifact-group-title {
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.artifact-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 0.5rem 1.4rem rgba(0, 0, 0, 0.06);
+}
+
+.artifact-image {
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.artifact-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* Objective badge */
+.objective-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background-color: var(--mv-light-blue);
+  color: var(--mv-black);
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Featured artifact rows on Selected Works */
+.artifact-feature {
+  background-color: #ffffff;
+  border-radius: 1.25rem;
+  padding: 2rem;
+  box-shadow: 0 0.75rem 1.8rem rgba(0, 0, 0, 0.08);
+}
+
+.artifact-heading {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--mv-blue);
+  margin-bottom: 0.5rem;
+}
+
+.artifact-summary-label {
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--mv-black);
+  opacity: 0.7;
+  margin-bottom: 0.4rem;
+}
+
+.artifact-feature-image {
+  border-radius: 0.75rem;
+  box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.15);
+}
+
+.artifact-note {
+  font-size: 0.85rem;
+  margin-top: 0.5rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Outline button in palette */
+.btn-mv-outline {
+  border: 2px solid var(--mv-black);
+  background-color: transparent;
+  color: var(--mv-black);
+  padding-inline: 1.5rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.btn-mv-outline:hover {
+  background-color: var(--mv-black);
+  color: #ffffff;
+}
