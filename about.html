@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About – Marcelo Vargas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Custom styles -->
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-mv shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">Marcelo Vargas</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="about.html">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#works">Selected Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#objectives">Program Objective</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- About section -->
+  <main class="container py-5" id="about">
+    <div class="hero-card">
+      <div class="row align-items-center gy-4">
+        <div class="col-md-4 text-center">
+          <img src="assets/headshot.jpg" alt="Headshot of Marcelo Vargas" class="headshot">
+        </div>
+        <div class="col-md-8">
+          <h1 class="mb-3">About Me</h1>
+          <p class="lead">
+            I am a Learning Design & Technology graduate student with a background in
+            computer science and education. I’m passionate about building meaningful,
+            accessible learning experiences that combine pedagogy, data, and technology.
+          </p>
+          <p>
+            My interests include instructional design, educational technology, math
+            education, and using data to support students—especially multilingual learners.
+            I’m working toward a career where I can design, build, and support digital
+            learning tools that empower both teachers and students.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Interests / Experience / Goals -->
+    <section class="mt-5">
+        <div class="info-section">
+            <div class="row g-4">
+            <div class="col-md-4">
+                <div class="info-card">
+                <div class="info-icon">
+                    <i class="bi bi-heart"></i>
+                </div>
+                <h2 class="section-title">Interests</h2>
+                <p>
+                    Learning design, educational technology, math pedagogy,
+                    UX for learning platforms, and data-informed decision making in schools.
+                </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-card">
+                <div class="info-icon">
+                    <i class="bi bi-mortarboard"></i>
+                </div>
+                <h2 class="section-title">Experience</h2>
+                <p>
+                    Experience teaching and tutoring math, building web applications,
+                    and collaborating with educators to design technology-integrated lessons.
+                </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="info-card">
+                <div class="info-icon">
+                    <i class="bi bi-bullseye"></i>
+                </div>
+                <h2 class="section-title">Goals</h2>
+                <p>
+                    Grow as an instructional designer, lead technology initiatives in K–12 or
+                    higher education, and create tools that make learning more equitable and engaging.
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CV / Resume -->
+    <section class="mt-5" id="cv">
+      <div class="cv-card">
+        <div class="d-flex flex-column flex-md-row align-items-start align-items-md-center justify-content-between gap-3">
+          <div>
+            <h2 class="section-title mb-1">Resume</h2>
+            <p class="mb-0">
+              Download my most recent CV to see my full academic, teaching, and
+              professional background.
+            </p>
+          </div>
+          <a href="assets/Marcelo_Vargas_CV.pdf" class="btn btn-mv-primary" target="_blank" rel="noopener">
+            <i class="bi bi-file-earmark-arrow-down me-1"></i>
+            Download CV (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact form -->
+    <section class="mt-5" id="contact">
+      <div class="hero-card">
+        <h2 class="section-title mb-3">Contact Me</h2>
+        <p class="mb-4">
+          Have questions about my work or want to connect? Use the form below to
+          send me a message.
+        </p>
+        <form>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your name">
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="How can I help?"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-mv-primary">
+                <i class="bi bi-send me-1"></i>
+                Send message
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer mt-5 py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <div>
+        <strong>Email:</strong>
+        <a href="mailto:youremail@example.com">youremail@example.com</a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/your-profile">
+          <i class="bi bi-linkedin fs-4 me-1"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
