@@ -58,3 +58,67 @@ body {
 .site-footer a:hover {
   text-decoration: underline;
 }
+
+.info-section {
+  background-color: var(--mv-light-blue); /* #8FABD4 strip */
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.08);
+}
+
+.info-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  height: 100%;
+  box-shadow: 0 0.5rem 1.4rem rgba(0, 0, 0, 0.06);
+}
+
+.info-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: var(--mv-blue); /* #4A70A9 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+/* Make CV card pop with palette too */
+.cv-card {
+  background-color: var(--mv-blue);
+  color: #ffffff;
+  border-radius: 1rem;
+  padding: 1.75rem 2rem;
+  box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.12);
+}
+
+.cv-card .section-title {
+  color: #ffffff;
+}
+
+.cv-card p {
+  margin-bottom: 0;
+}
+
+.cv-card .btn-mv-primary {
+  background-color: #ffffff;
+  color: var(--mv-blue);
+}
+
+.cv-card .btn-mv-primary:hover {
+  background-color: var(--mv-bg);
+  color: var(--mv-blue);
+}
+
+.info-card {
+  text-align: left;
+}
+
+.info-icon {
+  margin-left: auto;
+  margin-right: auto;
+}
