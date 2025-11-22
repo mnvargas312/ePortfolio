@@ -245,3 +245,25 @@ body {
   background-color: var(--mv-black);
   color: #ffffff;
 }
+
+/* Make footer stick to the bottom on short pages */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* full viewport height */
+}
+
+/* Let the main content grow to fill space */
+main {
+  flex: 1 0 auto;
+}
+
+/* Ensure footer is pushed to the bottom */
+.site-footer {
+  margin-top: auto;
+}
