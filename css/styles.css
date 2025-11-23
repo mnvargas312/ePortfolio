@@ -267,3 +267,10 @@ main {
 .site-footer {
   margin-top: auto;
 }
+
+/* Tagline on homepage */
+.tagline {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  line-height: 1.2;
+}
