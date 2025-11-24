@@ -344,3 +344,48 @@ main {
   color: var(--mv-black);
   text-shadow: none;
 }
+
+.about-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* image in the top-left with text wrapping around it */
+.about-photo {
+  float: left;
+  width: 220px;
+  max-width: 40%;
+  border-radius: 50%;
+  margin: 0 1.75rem 1.25rem 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* keep paragraphs readable */
+.about-wrap p {
+  line-height: 1.6;
+}
+
+/* clear the float for anything that follows this block (like Interests section) */
+.hero-card::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Optional: tweak for small screens so the image sits above the text */
+@media (max-width: 576px) {
+  .about-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1.25rem auto;
+  }
+
+  .about-wrap {
+    text-align: left;
+  }
+}
+
+.artifact-image-placeholder {
+  height: 220px;          /* adjust as needed */
+  border-radius: 12px;
+}
