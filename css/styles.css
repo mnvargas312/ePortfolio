@@ -274,3 +274,73 @@ main {
   opacity: 0.9;
   line-height: 1.2;
 }
+
+#highlights .carousel-item {
+  background-color: #ffffff;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(32%) sepia(22%) saturate(1500%) hue-rotate(190deg) brightness(92%) contrast(90%);
+  opacity: 0.85;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+  opacity: 1;
+}
+
+/* Carousel indicators (all carousels) */
+.carousel-indicators [data-bs-target] {
+  background-color: var(--mv-light-blue);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* Center the homepage carousel and reduce width */
+.carousel-wrapper {
+  max-width: 700px;         /* adjust this number if you want wider/narrower */
+  margin: 0 auto;           /* centers it */
+}
+
+/* Reduce the top/bottom whitespace of captions */
+#highlights .carousel-caption {
+  bottom: 15px;
+}
+
+
+  /* Home highlights carousel: show full image */
+#highlights .carousel-image {
+  height: 360px;          /* consistent height */
+  width: 100%;
+  object-fit: contain;    /* fit entire image, no cropping */
+  background-color: #ffffff;  /* fills any letterbox space */
+}
+
+/* Home highlights carousel: put title below image, no dark box */
+#highlights .carousel-caption {
+  position: static;        /* no longer overlaying */
+  background: none;
+  border-radius: 0;
+  padding: 0rem 0 0;
+  color: var(--mv-black);
+  text-shadow: none;
+}
+
+/* Home highlights carousel: move dots below image */
+#highlights .carousel-indicators {
+  position: static;
+  margin-top: 0.25rem;
+}
+
+
+/* Caption ABOVE image */
+#highlights .static-caption {
+  position: static;
+  text-align: center;
+  padding-bottom: 0.25rem;
+  background: none;
+  color: var(--mv-black);
+  text-shadow: none;
+}
