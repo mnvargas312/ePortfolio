@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Selected Works – Marcelo Vargas</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark navbar-mv shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex flex-column" href="index.html">
+        Marcelo Vargas
+        <span class="tagline fw-normal" style="font-size: 0.9rem; opacity: 0.9;">
+          Instructional Design | Educational Technology
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="mainNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Me</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="selected-works.html">Selected Works</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container py-5">
+
+    <!-- Program objectives list -->
+    <section class="hero-card mb-5">
+      <h1 class="mb-3">Selected Works</h1>
+      <p class="lead">
+        This section highlights key artifacts that demonstrate my progress toward the
+        Learning Design & Technology certificate program objectives.
+      </p>
+      <ol class="mt-4 program-objectives-list">
+        <li>
+          <strong>Objective 1:</strong>
+          Apply foundational knowledge and skills to the collaborative design and use
+          of content, pedagogy and instructional technologies.
+          <br>
+          <a href="objective1.html" class="objective-link">View Objective 1 page →</a>
+        </li>
+        <li>
+          <strong>Objective 2:</strong>
+          Create conditions for learning by applying theories to authentic scenarios
+          involving diverse populations.
+          <br>
+          <a href="objective2.html" class="objective-link">View Objective 2 page →</a>
+        </li>
+        <li>
+          <strong>Objective 3:</strong>
+          Use technologies and techniques to design and develop learning materials,
+          media, and environments.
+          <br>
+          <a href="objective3.html" class="objective-link">View Objective 3 page →</a>
+        </li>
+        <li>
+          <strong>Objective 4:</strong>
+          Use methods of inquiry to make data-driven decisions that inform practice
+          in the discipline.
+          <br>
+          <a href="objective4.html" class="objective-link">View Objective 4 page →</a>
+        </li>
+      </ol>
+    </section>
+
+    <!-- Carousel of objectives -->
+    <section class="mb-5">
+      <div id="selectedWorksCarousel" class="carousel slide carousel-mv" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#selectedWorksCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+          <button type="button" data-bs-target="#selectedWorksCarousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#selectedWorksCarousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#selectedWorksCarousel" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <a href="objective1.html">
+              <img
+                src="assets/podcast_thumbnail.png"
+                alt="Objective 1 podcast thumbnail"
+                class="d-block w-100"
+                style="height: 360px; object-fit: cover;"
+              >
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Objective 1</h5>
+                <p>Foundational knowledge, content, pedagogy, and instructional technologies.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="objective2.html">
+              <img
+                src="assets/interactive_thumbnail.png"
+                alt="Objective 2 interactive module thumbnail"
+                class="d-block w-100"
+                style="height: 360px; object-fit: cover;"
+              >
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Objective 2</h5>
+                <p>Creating conditions for learning in diverse, authentic scenarios.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="objective3.html">
+              <img
+                src="assets/screencast_thumbnail.png"
+                alt="Objective 3 screencast thumbnail"
+                class="d-block w-100"
+                style="height: 360px; object-fit: cover;"
+              >
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Objective 3</h5>
+                <p>Designing and developing learning materials, media, and environments.</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="carousel-item">
+            <a href="objective4.html">
+              <!-- Bootstrap placeholder instead of image -->
+              <div class="placeholder-glow">
+                <div class="placeholder w-100 bg-secondary" style="height: 360px;"></div>
+              </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Objective 4</h5>
+                <p>Using inquiry and data to inform practice.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#selectedWorksCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#selectedWorksCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Artifact list placeholders -->
+    <section id="artifacts" class="mt-5">
+      <h2 class="section-title mb-4">Featured Artifacts</h2>
+
+      <!-- Objective 1 artifact -->
+      <div class="artifact-feature mb-4">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h3 class="artifact-heading">Podcast – Objective 1</h3>
+            <p class="artifact-summary-label">SUMMARY</p>
+            <p>
+              This short podcast introduces practical negotiation strategies for purchasing a car at a dealership, 
+              with a focus on how to haggle for a fair price. In the episode, I walk listeners through key ideas 
+              such as setting a target price, using initial offers strategically, and recognizing when to step 
+              away from a deal. I scripted and recorded the episode to be concise, approachable, and clearly 
+              organized so that a general audience can follow the concepts even if they are unfamiliar with 
+              negotiation or financial terminology.
+            </p>
+            <a href="objective1.html" class="btn btn-mv-outline">
+              Read More
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <a href="objective1.html">
+              <img
+                src="assets/podcast_thumbnail.png"
+                alt="Podcast thumbnail for car-buying negotiation strategies"
+                class="img-fluid rounded shadow-sm"
+                style="max-height: 220px; object-fit: cover; cursor: pointer;"
+              >
+            </a>
+
+            <!-- Embed Podcast -->
+              <audio controls class="w-100 mt-3">
+                <source src="assets/podcast.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+                </div>
+
+        </div>
+      </div>
+
+      <!-- Objective 2 artifact -->
+      <div class="artifact-feature mb-4">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h3 class="artifact-heading">Interactive Module – Objective 2</h3>
+            <p class="artifact-summary-label">SUMMARY</p>
+            <p>
+              This interactive module teaches the basic rules and goals of Blackjack and guides learners in applying 
+              basic strategy to decide whether to hit or stay based on the hand they are dealt. The module combines 
+              short explanations, step-by-step examples, and scenario-based practice where learners make decisions 
+              and immediately see the consequences of their choices. The goal is to help learners connect intuitive 
+              decision-making with probability-informed strategies in a low-stakes, game-based environment.
+            </p>
+            <a href="objective2.html" class="btn btn-mv-outline">
+              Read More
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <a href="objective2.html">
+              <img
+                src="assets/interactive_thumbnail.png"
+                alt="Interactive Blackjack module thumbnail"
+                class="img-fluid rounded shadow-sm"
+                style="max-height: 220px; object-fit: cover; cursor: pointer;"
+              >
+            </a>
+
+            <a
+              href="https://mnvargas312.github.io/interactive-module/"
+              class="btn btn-mv-outline mt-3"
+              target="_blank"
+            >
+              Launch Module
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Objective 3 artifact -->
+      <div class="artifact-feature mb-4">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h3 class="artifact-heading">Screencast – Objective 3</h3>
+            <p class="artifact-summary-label">SUMMARY</p>
+            <p>
+              This screencast demonstrates how teachers can use AI tools to generate and refine an Algebra 1 lesson 
+              plan. In the video, I model how to write effective prompts, evaluate AI-generated lesson components, 
+              and adjust the output to align with learning goals and classroom realities. The screencast walks 
+              viewers through the entire workflow, from initial idea to a structured lesson, highlighting both the 
+              possibilities and limitations of relying on AI in the planning process.
+            </p>
+            <a href="objective3.html" class="btn btn-mv-outline">
+              Read More
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <a href="objective3.html">
+              <img
+                src="assets/screencast_thumbnail.png"
+                alt="Screencast thumbnail for AI-powered Algebra 1 lesson planning"
+                class="img-fluid rounded shadow-sm"
+                style="max-height: 220px; object-fit: cover; cursor: pointer;"
+              >
+            </a>
+
+            <a
+              href="objective3.html"
+              class="btn btn-mv-outline mt-3"
+
+            >
+              Watch Screencast
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Objective 4 artifact -->
+      <div class="artifact-feature mb-4">
+        <div class="row align-items-center g-4">
+          <div class="col-md-6">
+            <h3 class="artifact-heading">Data-Informed Project – Objective 4</h3>
+            <p class="artifact-summary-label">SUMMARY</p>
+            <p>
+              Placeholder summary for an artifact that demonstrates Objective 4:
+              using methods of inquiry to make data-driven decisions that inform
+              practice in the discipline.
+            </p>
+            <p>
+              Second placeholder paragraph for describing the data, analysis,
+              and how it guided your instructional decisions.
+            </p>
+            <a href="objective4.html" class="btn btn-mv-outline">
+              Read More
+            </a>
+          </div>
+          <div class="col-md-6 text-center">
+            <!-- Bootstrap placeholder instead of broken image/link -->
+            <div class="placeholder-glow">
+              <div class="placeholder w-100 bg-secondary" style="height: 220px; border-radius: 12px;"></div>
+              <p class="placeholder col-6 mt-3"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer mt-5 py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <div>
+        <strong>Email:</strong>
+        <a href="mailto:mnvargas312@gmail.com">mnvargas312@gmail.com</a>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/your-profile">
+          <i class="bi bi-linkedin fs-4 me-1"></i>
+          <span>LinkedIn</span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
